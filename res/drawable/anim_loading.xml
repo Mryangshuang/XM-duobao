@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false"
+    >
+    <item  android:duration="120"  android:drawable="@drawable/load_more_1"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_2"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_3"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_4"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_5"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_6"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_7"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_8"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_9"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_10"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_11"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_12"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_13"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_14"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_15"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_16"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_17"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_18"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_19"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_20"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_21"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_22"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_23"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_24"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_25"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_26"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_27"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_28"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_29"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_30"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_31"/>
+    <item  android:duration="120"  android:drawable="@drawable/load_more_32"/>
+</animation-list>

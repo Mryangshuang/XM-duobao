@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/header3img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/header3tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获得者" />
+
+            <TextView
+                android:id="@+id/header3tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="北京"
+                android:textColor="#00ff00" />
+
+            <TextView
+                android:id="@+id/header3tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户ID" />
+
+            <TextView
+                android:id="@+id/header3tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="期号" />
+
+            <TextView
+                android:id="@+id/header3tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本期参与10人" />
+
+            <TextView
+                android:id="@+id/header3tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="揭晓时间" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/win_totte_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="#ff0000"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/header3tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="幸运号码"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/header3tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape_jisuanxiangqing"
+            android:padding="5dp"
+            android:text="计算详情"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>

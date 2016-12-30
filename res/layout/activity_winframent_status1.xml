@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/s1img1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/s1img2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+             />
+    </FrameLayout>
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/s1tv1"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="商品名" />
+
+    <TextView
+        android:id="@+id/s1tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="期号" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_revealing2"
+        android:text="  即将揭晓" />
+
+    <com.bwf.duobao.ui.view.CutdownTextView
+        android:id="@+id/s1tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

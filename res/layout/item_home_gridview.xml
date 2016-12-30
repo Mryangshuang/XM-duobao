@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" 
+    android:background="@drawable/selector_griditem_bg">
+
+    <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" 
+        >
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_launcher" />
+    <ImageView 
+        android:id="@+id/img1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_ten_label"
+        android:visibility="gone"
+        />
+    <ImageView 
+        android:id="@+id/img2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_hundred_label"
+        android:visibility="gone"
+        />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="萌萌要中金碗"
+        android:textSize="13sp"
+        android:textColor="#3D3D3D"
+        android:gravity="center_vertical"
+        android:minLines="2"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/btnAddList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_add_to_list"
+            android:padding="4dp"
+            android:text="加入清单"
+            android:textColor="#AAff0000"
+            android:textSize="11sp" 
+            android:clickable="true"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/btnAddList"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="揭晓进度 "
+                    android:textColor="#999999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvProgress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="92%"
+                    android:textSize="12sp"
+                    android:textColor="#4169E1" />
+            </LinearLayout>
+		
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="5dp"
+                android:minHeight="5dp"
+                
+                android:progressDrawable="@drawable/progressbar_drawable_mini"
+                android:progress="50" 
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

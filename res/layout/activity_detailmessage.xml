@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="3dp" >
+
+        <ImageView
+            android:id="@+id/backBtn1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/selector_home_btn_bg"
+            android:clickable="true"
+            android:padding="2dp"
+            android:src="@drawable/ic_back_white" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_home_btn_bg"
+            android:clickable="true"
+            android:padding="2dp"
+            android:src="@drawable/ic_cart_black_white" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@id/img1"
+            android:background="@drawable/selector_home_btn_bg"
+            android:clickable="true"
+            android:padding="2dp"
+            android:src="@drawable/ic_home_black2_white" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@id/img2"
+            android:background="@drawable/selector_home_btn_bg"
+            android:clickable="true"
+            android:padding="2dp"
+            android:src="@drawable/ic_gooddetail_share_white" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:padding="10dp" >
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_btn_lijiduobao"
+                android:text="立即夺宝"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_btn_jiaruqingdan"
+                android:text="加入清单"
+                android:textColor="#ff0000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="新一期正在热火进行中....." />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_btn_lijiduobao"
+                android:text="立即前往"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fl"
+        android:layout_below="@+id/rl" >
+    </ListView>
+
+</RelativeLayout>

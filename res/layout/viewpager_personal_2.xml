@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical" 
+        android:gravity="center_horizontal"
+        android:background="#b48980">
+
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            >
+
+            <ImageView
+                android:id="@+id/imgshare"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/round_no_share" />
+
+            <ImageView
+                android:id="@+id/imgwish"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/round_no_wish" />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tvmes" 
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TA还没有晒单记录"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:id="@+id/tvduobao" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="立即夺宝"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/shape_btn_lijiduobao"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="猜你喜欢"
+            />
+
+        <TextView 
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="View"
+            />
+</LinearLayout>
